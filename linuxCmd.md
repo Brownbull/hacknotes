@@ -1,5 +1,6 @@
 # Linux Commands
 - [Linux Commands](#Linux-Commands)
+  - [history](#history)
   - [pwd](#pwd)
   - [cd](#cd)
   - [ls](#ls)
@@ -18,6 +19,23 @@
     - [use udpatedb to refresh index](#use-udpatedb-to-refresh-index)
   - [chmod](#chmod)
 ***
+
+## history
+History of previous commands
+```shell
+root@kali:~/hack/bgnrpentest/Notes# history 10
+  191  cat net.txt
+  192  less net.txt
+  193  ls
+  194  rm net.txt
+  195  netstat -ano | grep -a 22980
+  196  route
+  197  history
+  198  man history
+  199  history -t
+  200  history 10
+```
+
 ## pwd
 print working directory 
 ```shell
