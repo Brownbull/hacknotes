@@ -1,4 +1,23 @@
 # Linux Commands
+- [Linux Commands](#Linux-Commands)
+  - [pwd](#pwd)
+  - [cd](#cd)
+  - [ls](#ls)
+  - [mkdir](#mkdir)
+  - [rmdir](#rmdir)
+  - [touch](#touch)
+  - [nano](#nano)
+    - [Commands](#Commands)
+  - [cat](#cat)
+  - [less](#less)
+    - [Pres q for quit](#Pres-q-for-quit)
+  - [echo](#echo)
+  - [cp](#cp)
+  - [mv](#mv)
+  - [locate](#locate)
+    - [use udpatedb to refresh index](#use-udpatedb-to-refresh-index)
+  - [chmod](#chmod)
+***
 ## pwd
 print working directory 
 ```shell
