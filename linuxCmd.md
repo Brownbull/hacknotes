@@ -109,6 +109,47 @@ this is a test text
 test.txt (END)
 ```
 
+## echo
+print something somewhere
+```shell
+root@kali:~/hack/bgnrpentest/Notes# echo "this is another test" > new.txt
+root@kali:~/hack/bgnrpentest/Notes# ls
+linuxCmd.md  new.txt  test.txt
+```
+## cp
+copy file
+```shell
+root@kali:~/hack/bgnrpentest/Notes# cp new.txt folder
+root@kali:~/hack/bgnrpentest/Notes# cd folder
+root@kali:~/hack/bgnrpentest/Notes/folder# ls
+new.txt
+```
+
+## mv
+move file
+```shell
+root@kali:~/hack/bgnrpentest/Notes# mv new.txt folder
+root@kali:~/hack/bgnrpentest/Notes# cd folder/
+root@kali:~/hack/bgnrpentest/Notes/folder# ls
+new.txt
+```
+## locate
+locate files
+### use udpatedb to refresh index
+```shel
+root@kali:~/hack/bgnrpentest/Notes# nano asd.txt
+root@kali:~/hack/bgnrpentest/Notes# less asd.txt 
+root@kali:~/hack/bgnrpentest/Notes# locate asd.txt
+root@kali:~/hack/bgnrpentest/Notes# updatedb
+root@kali:~/hack/bgnrpentest/Notes# locate asd.txt
+/root/hack/bgnrpentest/Notes/asd.txt
+```
+
+
+
+
+
+
 
 
 
