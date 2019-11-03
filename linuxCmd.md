@@ -145,6 +145,27 @@ root@kali:~/hack/bgnrpentest/Notes# locate asd.txt
 /root/hack/bgnrpentest/Notes/asd.txt
 ```
 
+## chmod
+change permissions on files
+```shell
+root@kali:~/hack/bgnrpentest/Notes# nano asd.txt
+root@kali:~/hack/bgnrpentest/Notes# ls -la
+total 20
+drwxr-xr-x  3 root root 4096 Nov  3 13:14 .
+drwxr-xr-x 14 root root 4096 Nov  3 11:39 ..
+-rw-r--r--  1 root root   13 Nov  3 13:14 asd.txt
+drwxr-xr-x  8 root root 4096 Nov  3 13:10 .git
+-rw-r--r--  1 root root 3798 Nov  3 13:14 linuxCmd.md
+root@kali:~/hack/bgnrpentest/Notes# chmod +x asd.txt
+root@kali:~/hack/bgnrpentest/Notes# ls -la
+total 20
+drwxr-xr-x  3 root root 4096 Nov  3 13:14 .
+drwxr-xr-x 14 root root 4096 Nov  3 11:39 ..
+-rwxr-xr-x  1 root root   13 Nov  3 13:14 asd.txt
+drwxr-xr-x  8 root root 4096 Nov  3 13:10 .git
+-rw-r--r--  1 root root 3798 Nov  3 13:14 linuxCmd.md
+```
+
 
 
 
